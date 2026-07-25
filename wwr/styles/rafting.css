@@ -56,6 +56,10 @@ h2 {
     color: var(--primary-color);
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 nav,
 p,
 section,
@@ -119,4 +123,74 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
     padding: 20px 0;
+}
+
+/* History Section */
+.history {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.history-content img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+/* Adventure Section */
+.adventures {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.adventure-gallery figure {
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.adventure-gallery figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 40px;
 }
