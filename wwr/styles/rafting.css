@@ -85,17 +85,37 @@ article {
 
 /* ---------- HERO ---------- */
 
-.hero {
+.home-hero {
     position: relative;
 }
 
-.hero img {
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.home-card {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero h1 {
+.home-hero h1 {
     position: absolute;
     top: 20px;
     left: 0;
